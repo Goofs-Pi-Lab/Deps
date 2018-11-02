@@ -68,6 +68,8 @@ now for more deps (its better to have them and not need them then to need them a
 have fun fixing errors if they arrive - build in src folder with ```make -f makefile.unix USE_UPNP=-```
 
 Notes: allways check the doc readme in source for unix builds see if your missing any deps
+
+```sudo apt-get install libgmp-dev```
        
 
 
