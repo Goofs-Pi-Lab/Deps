@@ -76,6 +76,8 @@ have fun fixing errors if they arrive - build in src folder with ```make -f make
 Notes: allways check the doc readme in source for unix builds see if your missing any deps
 
 ```sudo apt-get install libgmp-dev``` Magi ```make -f makefile.unix xCPUARCH=armv7l```
+
+  *  :cxx error rebuild berkley db it dident stick
        
 
 
