@@ -48,7 +48,13 @@ we need to build the Berkeley DB ourselves
 ```sudo make install```
 
 ```cd ~```
-
+ 
+ B. Now let’s make it so the makefile can find the Berkeley DB
+      
+      ```* export CPATH="/usr/local/BerkeleyDB.4.8/include"``` 
+        
+      ```* export LIBRARY_PATH="/usr/local/BerkeleyDB.4.8/lib"```
+        
 now for more deps (its better to have them and not need them then to need them and not have them)
 
 ```sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3```
